@@ -112,7 +112,9 @@
   .btnCont:hover{
     background: linear-gradient(90deg, #000851 0%, #1CB5E0 100%);
   }
-  @media(max-width:768px){
-    
+  @media(max-width:847px){
+    header{
+      height: 67vh;
+    }
   }
 </style>

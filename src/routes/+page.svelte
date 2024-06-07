@@ -436,7 +436,24 @@ import Team from "$lib/components/Team.svelte";
     margin: 50px 0 0 10px;
     float: left;
   }
-  @media(max-width:768px){
+  @media(max-width:847px){
+    /* slider */
+    .slider-text {
+    top: 280px;
+    margin-left: 80px;
+    width: 400px;
+}
+.slider-text h1 {
+    font-size: 35px;
+}
+.slider-text p {
+    font-size: 20px;
+}
+.btnDisc {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
     /* solution container */
     .ContainerText-img{
     height: 40vh;
@@ -445,13 +462,13 @@ import Team from "$lib/components/Team.svelte";
     margin-left: 30px;
     }
     .imgLeft img{
-      width: 340px;
-    height: 350px;
+      width: 350px;
+    height: 360px;
     border-radius: 15px;
     }
     .textRight {
     width: 42%;
-    margin-right: 30px;
+    margin-right: 40px;
   }
   .textRight h1 {
     font-size: 28px;
@@ -471,14 +488,14 @@ import Team from "$lib/components/Team.svelte";
   /* grid  */
   .grid-container{
     padding-top: 20px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .upperText {
     height: 20vh;
 }
 .upperText .heading{
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 65px;
 }
   .upperText .para {
     font-size: 18px;
@@ -487,14 +504,17 @@ import Team from "$lib/components/Team.svelte";
   }
   .grid-box {
     display: grid;
-    grid-template-columns: repeat(3, 320px);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 370px);
+    grid-gap: 10px 20px;
+    /* grid-column-gap: 20px;
+    grid-row-gap: 10px; */
     grid-template-rows: 350px 350px;
+    justify-content: center;
   }
   .grid-item {
     border-radius: 15px;
     height: 290px;
-    padding: 20px;
+    padding: 15px;
   }
   .grid-item h1 {
     font-size: 25px;
