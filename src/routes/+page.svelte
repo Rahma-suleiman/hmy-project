@@ -436,4 +436,89 @@ import Team from "$lib/components/Team.svelte";
     margin: 50px 0 0 10px;
     float: left;
   }
+  @media(max-width:768px){
+    /* solution container */
+    .ContainerText-img{
+    height: 40vh;
+}
+    .imgLeft {
+    margin-left: 30px;
+    }
+    .imgLeft img{
+      width: 340px;
+    height: 350px;
+    border-radius: 15px;
+    }
+    .textRight {
+    width: 42%;
+    margin-right: 30px;
+  }
+  .textRight h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .textRight p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .textRight ul {
+    margin-top: 15px;
+    margin-left: -20px;
+  }
+  .textRight ul li {
+    font-size: 18px;
+  }
+  /* grid  */
+  .grid-container{
+    padding-top: 20px;
+    margin: 10px 0;
+}
+.upperText {
+    height: 20vh;
+}
+.upperText .heading{
+    font-size: 15px;
+    margin-left: 30px;
+}
+  .upperText .para {
+    font-size: 18px;
+    width: 40%;
+    margin-right: 50px;
+  }
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-gap: 20px;
+    grid-template-rows: 350px 350px;
+  }
+  .grid-item {
+    border-radius: 15px;
+    height: 290px;
+    padding: 20px;
+  }
+  .grid-item h1 {
+    font-size: 25px;
+  }
+  .grid-item p {
+    font-size: 17px;
+  }
+  .icons {
+    margin: 8px 0 0 15px;
+  }
+  .icons img {
+    width: 50px;
+    height: 50px;
+  }
+  /* .icons img:not(:last-child) {
+    margin-right: 0.5rem;
+  } */
+  .btnLearn {
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .grid-item .btnLearn {
+    margin: 10px 0 0 8px;
+  }
+  }
 </style>
